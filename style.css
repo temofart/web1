@@ -1,0 +1,267 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", "Trebuchet MS" ,monospace, sans-serif;
+}
+
+.wrapper {
+	max-width: 70%;
+	height: inherit;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.header {
+	background: #FF726B;
+	min-height: 80px;
+}
+
+.welcome {
+	background: #FB625A;
+	height: 120px;
+}
+
+.header img {
+	width: 100px;
+	float: left;
+	line-height: 80px;
+}
+
+.header ul {
+	margin: 0 auto;
+	padding: 0;
+	float: right; 	
+}
+.header ul li {
+	display: inline;
+	line-height: 80px;
+	margin: 0px auto;
+	margin-right: 15px;
+	color: #fff;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+.header li a {
+	text-decoration: none;
+	color: inherit; 
+	padding: 10px;
+	transition: 0.3s;
+}
+
+.header a:hover {
+	background: #313131;
+}
+
+/*---------CLASS ""WELCOME"----------*/
+
+.welcome .wrapper h1 {
+	color: #fff;
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: center;
+	font-weight: normal;
+	
+}
+
+.welcome .wrapper h2 {
+	font-size: 14px;
+	color: #fff;
+	margin: 0 auto;
+	padding-top: 5px;
+	text-align: center;
+	font-weight: normal;
+}
+
+
+/*-------CLASS "THIRD"------*/
+
+.third {
+	background: #313131;
+	text-align: center;
+	color: #fff;
+	min-height: 320px;
+
+}
+
+.third h1 {
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.third h2 {
+	margin: 0 auto;
+}
+
+.third p {
+	margin: 0 auto;
+	padding-top: 5px;
+	font-size: 14px;
+	font-weight: none;
+	color: #FB625A;
+}
+
+.third .wrapper .icons {
+	/*/*float: left;*/
+	display: inline-block;
+	margin: 20px 80px;
+}
+
+/*----CLASS ""TALENTED"-----*/
+
+.talented {
+	background: #84C976;
+	min-height: 380px;
+	text-align: center;
+}
+
+.talented h1 {
+	margin: 0 auto;
+	padding-top: 20px;
+	text-align: center;
+	color: #FCFCFC;
+}
+.talented p {
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+	margin-bottom: 20px;
+	
+}
+
+.talented .team {
+	max-width: 1000px;
+	min-height: 300px;
+	text-align: center;
+	margin: 0 auto;
+	}
+
+.talented .donatello {
+	width: 200px;
+	height: 260px;
+	background: #fff;
+	margin: 10px 10px; 
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+.talented .leonardo {
+	width: 200px;
+	height: 260px;
+	background: #fff;
+	margin: 10px 10px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 3px;
+}
+.talented .michelangelo {
+	width: 200px;
+	height: 260px;
+	background: #fff;
+	margin: 10px 10px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 3px;
+}
+.talented .raphael {
+	width: 200px;
+	height: 260px;
+	background: #fff;
+	margin: 10px 10px;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 3px;
+}
+
+.talented h3 {
+	margin: 0 auto;
+	padding-top:0px;
+	color: #84C976;
+}
+
+.talented .team p {
+	color: #FF726B;
+	font-size: 14px;
+}
+
+.talented .team img {
+	width: 100px;
+	margin: 10px auto;
+}
+.talented .team a img:hover{
+	
+	border: 1px solid #0ACC00;
+	border-radius: 10px;
+}
+
+/*FOOTER*/
+.footer {
+	min-height: 50px;
+	background: #313131;
+}
+
+.footer .wrapper p {
+	color: #fff;
+	line-height: 25px;
+}
+
+#motion {color: #FF726B;}
+
+/*Adaptive*/
+@media screen and (max-width: 1292px) {
+	.wrapper .team {
+max-width: 500px;
+	}
+}
+
+@media screen and (max-width: 395px) {
+	.wrapper .team {
+width: 100px;
+	}
+}
+@media screen and (max-width: 835px) {
+	.header {text-align: center;}
+	.header .wrapper li {
+		text-align: center;
+		margin: 0 10px;
+		padding: 0px;
+	}
+	.header ul {
+		float: none;
+	}
+	.header .wrapper img{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+}
+
+
+@media screen and (max-width: 712px) {
+	.header {text-align: center;}
+
+	.header .wrapper li {
+		display: block;
+		text-align: center;
+		padding: 0px;
+		height: 50px;
+		margin: 0px auto;
+
+	}
+
+.header ul {
+	margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1367px) {
+.third .wrapper .icons {
+	margin: 20px 30px;
+}
+.wrapper {max-width: 90%}
+}
+@media screen and (max-width: 1355px) {
+.wrapper {max-width: 90%}
+
+
+}
